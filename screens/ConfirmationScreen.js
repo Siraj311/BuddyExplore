@@ -16,7 +16,7 @@ const ConfirmationScreen = () => {
             color: "white",
           },
           headerStyle: {
-            backgroundColor: "#003580",
+            backgroundColor: "#4B6D4F",
             height: 110,
             borderBottomColor: "transparent",
             shadowColor: "transparent",

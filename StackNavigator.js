@@ -28,33 +28,33 @@ const StackNavigator = () => {
         return (
             <Tab.Navigator>
                 
-                <Tab.Screen name="Home" component={HomeScreen} options={{tabBarLabel:"Home", headerShown:false, 
+                <Tab.Screen name="Home" component={HomeScreen} options={{tabBarLabel:"Home", tabBarActiveTintColor: "#4B6D4F", headerShown:false, 
                     tabBarIcon: ({focused}) => focused ? ( 
-                        <Entypo name="home" size={24} color="#003580" />
+                        <Entypo name="home" size={24} color="#4B6D4F" />
                     ) : (
                         <AntDesign name="home" size={24} color="black" />
                     ) }} 
                 />
 
-                <Tab.Screen name="Saved" component={SavedScreen} options={{tabBarLabel:"Saved", headerShown:false, 
+                <Tab.Screen name="Saved" component={SavedScreen} options={{tabBarLabel:"Saved", tabBarActiveTintColor: "#4B6D4F", headerShown:false, 
                     tabBarIcon: ({focused}) => focused ? ( 
-                        <AntDesign name="heart" size={24} color="#003580" />
+                        <AntDesign name="heart" size={24} color="#4B6D4F" />
                     ) : (
                         <AntDesign name="hearto" size={24} color="black" />
                     ) }} 
                 />
 
-                <Tab.Screen name="Bookings" component={BookingsScreen} options={{tabBarLabel:"Bookings", headerShown:false, 
+                <Tab.Screen name="Bookings" component={BookingsScreen} options={{tabBarLabel:"Bookings", tabBarActiveTintColor: "#4B6D4F", headerShown:false, 
                     tabBarIcon: ({focused}) => focused ? ( 
-                        <Ionicons name="notifications" size={24} color="#003580" />
+                        <Ionicons name="notifications" size={24} color="#4B6D4F" />
                     ) : (
                         <Ionicons name="notifications-outline" size={24} color="black" />
                     ) }} 
                 />
 
-                <Tab.Screen name="Profile" component={ProfileScreen} options={{tabBarLabel:"Profile", headerShown:false, 
+                <Tab.Screen name="Profile" component={ProfileScreen} options={{tabBarLabel:"Profile", tabBarActiveTintColor: "#4B6D4F", headerShown:false, 
                     tabBarIcon: ({focused}) => focused ? ( 
-                        <Ionicons name="person" size={24} color="#003580" />
+                        <Ionicons name="person" size={24} color="#4B6D4F" />
                     ) : (
                         <Ionicons name="person-outline" size={24} color="black" />
                     ) }} 

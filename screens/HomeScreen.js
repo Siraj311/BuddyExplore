@@ -36,14 +36,14 @@ const HomeScreen = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: true,
-      title: "Booking.com",
+      title: "BuddyExplore",
       headerTitleStyle: {
         fontSize: 20,
         fontWeight: "bold",
         color: "white",
       },
       headerStyle: {
-        backgroundColor: "#003580",
+        backgroundColor: "#4B6D4F",
         height: 110,
         borderBottomColor: "transparent",
         shadowColor: "transparent",
@@ -102,7 +102,7 @@ const HomeScreen = () => {
   return (
     <>
       <View>
-        <Header />
+        {/* <Header /> */}
 
         <ScrollView contentContainerStyle={{paddingBottom: 60}}>
           <View
@@ -210,7 +210,8 @@ const HomeScreen = () => {
                 paddingVertical: 15,
                 borderWidth: 2,
                 borderColor: "#FFC72C",
-                backgroundColor: "#2a52be",
+                // backgroundColor: "#2a52be",
+                backgroundColor: "#4B6D4F",
               }}
             >
               <Text
@@ -237,7 +238,7 @@ const HomeScreen = () => {
                 width: 200,
                 height: 150,
                 marginTop: 10,
-                backgroundColor: "#003580",
+                backgroundColor: "#4B6D4F",
                 borderRadius: 10,
                 padding: 20,
                 marginHorizontal: 10,
@@ -310,12 +311,12 @@ const HomeScreen = () => {
               alignItems: "center",
             }}
           >
-            <Image
+            {/* <Image
               style={{ width: 200, height: 50, resizeMode: "cover" }}
               source={{
                 uri: "https://assets.stickpng.com/thumbs/5a32a821cb9a85480a628f8f.png",
               }}
-            />
+            /> */}
           </Pressable>
         </ScrollView>
       </View>

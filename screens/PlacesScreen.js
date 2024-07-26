@@ -18,10 +18,10 @@ const PlacesScreen = () => {
   const data = [
     {
       id: "0",
-      place: "Bangalore",
+      place: "Galle",
       placeImage:
         "https://images.pexels.com/photos/7630190/pexels-photo-7630190.jpeg?auto=compress&cs=tinysrgb&w=800",
-      shortDescription: "City in Karnataka, India",
+      shortDescription: "City in South, Sri Lanka",
       properties: [
         {
           id: "10",
@@ -30,11 +30,11 @@ const PlacesScreen = () => {
             "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
           rating: 3.6,
           address:
-            "346, Hennur Main Road, Post, Kalyan Nagar, 560043 Bangalore, India ",
+            "346,  Main Road, Galle, Sri Lanka ",
           oldPrice: 4600,
           newPrice: 3312,
-          latitude: "13.0359",
-          longitude: "77.6431",
+          latitude: "6.0535",
+          longitude: "80.2209",
           photos: [
             {
               id: "100",
@@ -120,11 +120,11 @@ const PlacesScreen = () => {
           name: "Regenta Inn Indiranagar Bangalore",
           rating: 4,
           address:
-            " 648/B, Regenta Inn Indiranagar, Binnamangala 1st stage Indiranagar, 560038 Bangalore, India",
+            " 648/B, Main Road, Galle, Sri Lanka",
           oldPrice: 4201,
           newPrice: 3327,
-          latitude: "12.9784",
-          longitude: "77.6408",
+          latitude: "6.0575",
+          longitude: "80.2109",
           photos: [
             {
               id: "110",
@@ -206,14 +206,14 @@ const PlacesScreen = () => {
         },
         {
           id: "12",
-          name: "Bloom Hotel - Bengaluru Airport",
+          name: "Bloom Hotel - Galle Fort",
           rating: 4.2,
           address:
-            "Down Town Park, Sadahalli Gate, Kempegowda Int'l Airport Rd, 562157 Bangalore, India",
+            "No: 5, Main Road, Galle Fort, Galle, Sri Lanka",
           oldPrice: 3800,
           newPrice: 3078,
-          latitude: "13.1989",
-          longitude: "77.7068",
+          latitude: "6.0580",
+          longitude: "80.2279",
           image:
             "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695517.jpg?k=c2559cc321dd56a7beb32262c84d60bc1760430a4a49ac6f8713a2fa03cd0d36&o=&hp=1",
           photos: [
@@ -294,19 +294,21 @@ const PlacesScreen = () => {
     },
     {
       id: "2",
-      place: "Hyderabad",
+      place: "Kandy",
       placeImage:
         "https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=800",
-      shortDescription: "City in Telangana, India",
+      shortDescription: "Ancient City, Sri Lanka",
       properties: [
         {
           id: "20",
-          name: "FabExpress Airport Stay Inn",
+          name: "FabExpress Stay Inn",
           rating: 3.5,
           address:
-            "CFC-4/C, Road No-2 Hardware Park, Beside TCS, Tukkuguda, 501351 Hyderabad, India",
+            "No: 4/C, Road No-2 Hardware Park, Kandy, Sri Lanka",
           oldPrice: 4332,
           newPrice: 3200,
+          latitude: "7.2950",
+          longitude: "80.6300",
           photos: [
             {
               id: "140",
@@ -391,9 +393,11 @@ const PlacesScreen = () => {
           name: "Olive Service Apartments",
           rating: 4.5,
           address:
-            "Plot 73, Shilpi Valley, Gafoor Nagar, Madhapur, Opp Hitech City Mindspace, Hyderabad",
+            "No: 73, Colombo Road, Kandy, Sri Lanka",
           oldPrice: 5200,
           newPrice: 4100,
+          latitude: "7.2906",
+          longitude: "80.6337",
           photos: [
             {
               id: "160",
@@ -487,7 +491,7 @@ const PlacesScreen = () => {
         color: "white",
       },
       headerStyle: {
-        backgroundColor: "#003580",
+        backgroundColor: "#4B6D4F",
         height: 110,
         borderBottomColor: "transparent",
         shadowColor: "transparent",
